@@ -1,37 +1,82 @@
-## Welcome to GitHub Pages
+<html>
+<head>
+<title>Matriculas</title>
 
-You can use the [editor on GitHub](https://github.com/FelipeafveieiraUni/Trabalho/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<style type="text/css">
+    h1{
+        border-width: 5%;
+        border-style: solid;
+        border-color: blue;
+        height: 80px;
+        width: 15%;
+    }
+</style>
+<img width="150px" height="80px"
+src="Foto.jpg">
+<h1>Faça sua Matricula<br>
+    Na Unifor
+</h1>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div style="background-color: rgb(77, 77, 190);color:black;padding:20px;">
+<table>
 
-### Markdown
+<tr>
+<td>Nome:</td>
+<td><input type=text name=nomecompleto size=20>
+<td>Data de Nascimento:</td>
+<td><input type=text name=prof size=20>
+<td>Endereço:</td>
+<td><input type name=endereco size=20></td>
+</tr>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<tr>
+                   <td>Bairro:</td>
+                   <td><input type=text name=CEPmaxlength=9 size=9></td>
+                   <td>Cidade:</td>
+                    <td><input type=text name=cidade size=20></td>
 
-```markdown
-Syntax highlighted code block
+</tr>
 
-# Header 1
-## Header 2
-### Header 3
+<table>
 
-- Bulleted
-- List
+                           <td>Estado Civil:</td>
+                           <td>Casado<input type=radio name=estadocivil>
+                                  Solteiro<input type=radio name=estadocivil>
+                                  Divorciado<input type=radio name=estadocivil>
+                                  Viuvo<input type=radio name=estadocivil>
 
-1. Numbered
-2. List
+</tr>
+</table>
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+<td>Telefone:</td>
+<td><input type=text name=fone size=9></td>   
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<td>Email:</td>
+<td><input type=text name=email></td>
+</tr>
+</table>
+<table>
+<tr>
 
-### Jekyll Themes
+<td>Documentos entregues:</td>
+<td>RG<input type=checkbox name=rg value=1>
+       CPF<input type=checkbox name=cpf value=2>
+CNH<input type=checkbox name=doctos value=3></td>
+</td>
+</div>
+</table>
+<hr>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/FelipeafveieiraUni/Trabalho/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Observações:
+<textarea name=comentario rows=5 cols=50></textarea>                                                                   
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+<input type="submit" value ="Salvar">
+<a href="https://github.com/FelipeafveieiraUni/Trabalho/blob/main/Secundario" target="_parent"><button>Confirmar!</button></a>
+<input type="reset" ="cancelar">
+
+</form>
+</body>
+</html>
