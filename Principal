@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>Matriculas</title>
+
+<style type="text/css">
+    h1{
+        border-width: 5%;
+        border-style: solid;
+        border-color: blue;
+        height: 80px;
+        width: 15%;
+    }
+</style>
+<img width="150px" height="80px"
+src="Foto.jpg">
+<h1>Faça sua Matricula<br>
+    Na Unifor
+</h1>
+
+<div style="background-color: rgb(77, 77, 190);color:black;padding:20px;">
+<table>
+
+<tr>
+<td>Nome:</td>
+<td><input type=text name=nomecompleto size=20>
+<td>Data de Nascimento:</td>
+<td><input type=text name=prof size=20>
+<td>Endereço:</td>
+<td><input type name=endereco size=20></td>
+</tr>
+
+<tr>
+                   <td>Bairro:</td>
+                   <td><input type=text name=CEPmaxlength=9 size=9></td>
+                   <td>Cidade:</td>
+                    <td><input type=text name=cidade size=20></td>
+
+</tr>
+
+<table>
+
+                           <td>Estado Civil:</td>
+                           <td>Casado<input type=radio name=estadocivil>
+                                  Solteiro<input type=radio name=estadocivil>
+                                  Divorciado<input type=radio name=estadocivil>
+                                  Viuvo<input type=radio name=estadocivil>
+
+</tr>
+</table>
+
+
+<td>Telefone:</td>
+<td><input type=text name=fone size=9></td>   
+
+<td>Email:</td>
+<td><input type=text name=email></td>
+</tr>
+</table>
+<table>
+<tr>
+
+<td>Documentos entregues:</td>
+<td>RG<input type=checkbox name=rg value=1>
+       CPF<input type=checkbox name=cpf value=2>
+CNH<input type=checkbox name=doctos value=3></td>
+</td>
+</div>
+</table>
+<hr>
+
+Observações:
+<textarea name=comentario rows=5 cols=50></textarea>                                                                   
+
+
+
+<input type="submit" value ="enviar">
+<input type="reset" ="cancelar">
+
+</form>
+</body>
+</html>
